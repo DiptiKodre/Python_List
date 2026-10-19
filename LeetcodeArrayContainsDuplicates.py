@@ -1,3 +1,6 @@
+#TC = O(n)
+#SC = O(n)
+
 arr = [12,34,21,45,56,67,64.67]
 
 def containsDuplicate(arr):

@@ -1,5 +1,6 @@
 #Constraints --> use element only once
         # only one solution exists
+#return index of elements
 
 nums = [5,9,1,2,4,15,6,3]
 target = 13

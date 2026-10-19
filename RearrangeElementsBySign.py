@@ -21,6 +21,8 @@ nums = [5,10,-3,-1,-10,6]
 
 
 # Optimal Solution
+#TC =O(N)
+#SC = O(N)
 n = len(nums)
 result=[0]*n
 pos_index = 0

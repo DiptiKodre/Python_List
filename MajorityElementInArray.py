@@ -46,13 +46,16 @@ count = 0
 
 for num  in arr:
     if count == 0:
+        # Start a new candidate whenever the previous votes cancel out.
         candidate = num
     if num == candidate:
+        # A match supports the current candidate.
         count += 1
     else:
+        # A different value cancels one vote for the candidate.
         count -= 1
 
-# verify the candidate
+# Verify the candidate because a majority is not guaranteed to exist.
 
 if arr.count(candidate) > len(arr)//2:
     print("Majority element: ", candidate)

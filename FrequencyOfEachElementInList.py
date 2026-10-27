@@ -15,10 +15,11 @@ print(freq)
 
 
 #Using get()
-
+# TC = O(n)
+# SC = O(k)
 frequency= {}
 for num in arr:
-    frequency[num] = freq.get(num,0) + 1
+    frequency[num] = frequency.get(num,0) + 1
 print(frequency)
 
 

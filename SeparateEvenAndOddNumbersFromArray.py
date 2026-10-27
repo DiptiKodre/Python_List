@@ -27,14 +27,14 @@ def separate_even_odd(array):
     evennums =[]
     oddnums = []
 
-    for x in arr:
+    for x in array:
         if x%2 == 0:
             evennums.append(x)
         else:
             oddnums.append(x)
-    return even,odd
+    return evennums,oddnums
 
-array = [1,2,3,4,5,6,7,8,9]
+array = [1,2,3,4,5,6,7,8,9,23,45,67,89]
 evennums, oddnums = separate_even_odd(array)
 print("Even: ", evennums)
 print("Odd : ", oddnums)
